@@ -10,7 +10,7 @@ public class CustomerValidatorService {
 	}
 
 	private boolean isPhoneNumberValid(String phoneNumber) {
-		return phoneNumber.startsWith("+0")
+		return phoneNumber.startsWith("+0");
 	}
 
 	private boolean isAdult(LocalDate dob) {
